@@ -1,7 +1,6 @@
 from flask import Flask, render_template, url_for, request, redirect
 from werkzeug.utils import secure_filename
 from colorthief import ColorThief
-from datetime import datetime
 import os
 from flask_bootstrap import Bootstrap
 
