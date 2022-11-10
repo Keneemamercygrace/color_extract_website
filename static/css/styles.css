@@ -1,0 +1,186 @@
+body{
+background-color:#D3CEDF;
+background-repeat:no-repeat;
+background-size:cover;
+}
+.jumbotron{
+height: 100vh;
+margin: 0;
+background-image:url("https://w0.peakpx.com/wallpaper/789/999/HD-wallpaper-color-palette-abstract.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+display:flex;
+align-items:center;
+}
+.jumbotron h1{
+font-family: 'Righteous', cursive;
+color: #182747;
+padding-bottom:30px;
+}
+a{
+margin-left:20px;
+margin-top:25px;
+
+}
+.btn-warning{
+background-color:#533483;
+color:black;
+border-color:#533483;
+}
+.border{
+border-style:solid;
+height:670px;
+width:700px;
+margin-bottom:20px;
+padding-top:10px;
+margin-top:80px;
+}
+
+img{
+width:600px;
+z-index:-1;
+padding:20px 45px;
+}
+.image{
+align-text:center;
+padding-left:45px;
+}
+.color{
+padding:10px 10px;
+}
+input[type='file']{
+display:none;
+}
+.file-upload{
+border: 1px solid;
+display:inline-block;
+padding:6px 40px;
+cursor:pointer;
+border-radius:10px;
+font-weight: 700;
+font-size: 20px;
+text-align:center;
+margin:0 auto;
+width:260px;
+background-color:#0078AA;
+color:black;
+}
+.file-upload:hover{
+background-color:#7A4495;
+}
+.submit_button{
+border: 1px solid;
+display:inline-block;
+padding:6px 12px;
+font-weight: 700;
+font-size: 20px;
+text-align:center;
+margin:0 auto;
+background-color:#C70A80;
+width:200px;
+border-radius:10px;
+height:43px;
+color:black;
+}
+.submit_button:hover{
+background-color:#1D1CE5;
+}
+.submit{
+padding-top:21px;
+}
+.btn-lg{
+padding:10px 40px;
+border-radius:10px;
+font-size: 20px;
+line-height:18px;
+}
+.btn-warning{
+background-color:#E6B325;
+}
+.btn-warning:hover{
+background-color:#F65A83;
+}
+.btn{
+font-weight: 700;
+}
+h2{
+padding-left:45px;
+}
+.demo{
+height:43px;
+padding-top:0px;
+}
+.i{
+color:#1D1CE5;
+}
+.m{
+color:#FECD70;
+}
+.a{
+color:#7A4495;
+}
+.g{
+color:#1D1CE5;
+}
+.e{
+color:#F65A83;
+}
+.c{
+color:#FECD70;
+}
+.o{
+color:#D75281;
+}
+.l{
+color:#7B2A4FF;
+}
+.r{
+color:#E6B325;
+}
+.oo{
+color:#0078AA;
+}
+.ee{
+color:#1D1CE5;
+}
+.x{
+color:#D61C4E;
+}
+.t{
+color:#C689C6;
+}
+.rr{
+color:#3B44F6;
+}
+.aa{
+color:#FFA500 ;
+}
+.cc{
+color:#C70A80;
+}
+.tt{
+color:#7B2A4FF;
+}
+@media screen and (max-width: 500px){
+.border{
+border-style:solid;
+height:335px;
+width:300px;
+padding:10px 0px;
+margin-top:40px;
+}
+img{
+width:290px;
+z-index:-1;
+
+}
+.image{
+padding-left:40px;
+}
+h2{
+padding-left:45px;
+}
+.colors{
+padding-left:10px;
+}
+}

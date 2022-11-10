@@ -1,0 +1,31 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title %}To DO List{% endblock %}
+{% block styles %}
+{{super()}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+{%endblock%}
+{%block content%}
+<div class="jumbotron text-center">
+    <div class="container">
+    <h1><span class="i">I</span><span class="m">m</span><span class="a">a</span><span class="g">g</span><span class="e">e</span> <span class="c">C</span><span class="o">o</span><span class="l">l</span><span class="oo">o</span><span class="r">r</span> <span class="ee">E</span><span class="x">x</span><span class="t">t</span><span class="rr">r</span><span class="aa">a</span><span class="cc">c</span><span class="tt">t</span></h1>
+        <form action = "{{ url_for('show') }}" method = "POST" enctype = "multipart/form-data" class="form">
+             <label for="my-file" class="file-upload">
+                UPLOAD FILE
+            </label>
+            <input class="input-file" id="my-file" type="file" name="file" >
+            <div class="submit">
+            <input type = "submit" class="submit_button"/>
+                </div>
+           </form>
+        <div class="demo">
+        <a class="btn btn-warning btn-lg" href="{{url_for('demo')}}" role="button">Demo</a>
+            </div>
+    </div>
+
+</div>
+
+{%endblock%}
